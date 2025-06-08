@@ -1,0 +1,28 @@
+{
+  "structure": {
+    "data/": [
+      "CM_*.csv",
+      "Redshift_*.csv",
+      "LHC_*.csv"
+    ],
+    "docs/": [
+      "STOE_V12_*.pdf",
+      "Final_Release_*.pdf",
+      "Report_with_CMB_*.pdf"
+    ],
+    "visuals/": [
+      "*.png",
+      "*.jpg",
+      "*.jpeg"
+    ],
+    "metadata/": [
+      "metadata.json",
+      "zenodo_stoe_v12_complete.json",
+      "SHA256SUM.txt"
+    ],
+    "html/": [
+      "index.html"
+    ]
+  },
+  "notes": "This file defines the target structure for STOE V12 GitHub repository. Use it with an automation script or GitHub Action to reorganize files."
+}
