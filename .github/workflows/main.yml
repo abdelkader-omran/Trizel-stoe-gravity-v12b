@@ -1,0 +1,43 @@
+name: Organize Repository Files
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '**.pdf'
+      - '**.csv'
+      - '**.json'
+      - '**.png'
+      - '**.md'
+      - '**.txt'
+
+jobs:
+  organize-files:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Create folders
+        run: |
+          mkdir -p data docs visuals
+
+      - name: Move files by type
+        run: |
+          find . -maxdepth 1 -iname '*.pdf' -exec mv -t docs {} +
+          find . -maxdepth 1 -iname '*.md' -exec mv -t docs {} +
+          find . -maxdepth 1 -iname '*.csv' -exec mv -t data {} +
+          find . -maxdepth 1 -iname '*.json' -exec mv -t data {} +
+          find . -maxdepth 1 -iname '*.png' -exec mv -t visuals {} +
+          find . -maxdepth 1 -iname '*.jpg' -exec mv -t visuals {} +
+          find . -maxdepth 1 -iname '*.jpeg' -exec mv -t visuals {} +
+          find . -maxdepth 1 -iname '*.txt' -exec mv -t docs {} +
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Auto-organize files into folders"
+          git push
