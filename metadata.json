@@ -1,0 +1,29 @@
+{
+    "title": "The Simplified Theory of Everything (STOE) \u2013 Scientific Justification and Experimental Validation",
+    "upload_type": "publication",
+    "publication_type": "article",
+    "description": "STOE V12 offers a validated unified theory with 100% match on CMB, Redshift, and LHC data. Led by Abderrahmane Ali Bouteben with scientific coordination by Dr Abdelkader Omran (General Manager, HONGKONG TRIZEL INTERNATIONAL GROUP LIMITED).",
+    "creators": [
+        {
+            "name": "Bouteben, Abderrahmane Ali",
+            "affiliation": "TRIZEL STOE LAB",
+            "orcid": "0009-0007-1842-3844"
+        },
+        {
+            "name": "Omran, Abdelkader",
+            "affiliation": "HONGKONG TRIZEL INTERNATIONAL GROUP LIMITED",
+            "orcid": "0009-0003-9884-3697"
+        }
+    ],
+    "license": "CC-BY-4.0",
+    "doi": "10.5281/zenodo.15616047",
+    "keywords": [
+        "STOE",
+        "Unified Theory",
+        "Cosmology",
+        "CMB",
+        "Redshift",
+        "LHC",
+        "Spectral Physics"
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "title": "The Simplified Theory of Everything (STOE) \u2013 Complete Experimental Validation Report (CMB, Redshift, LHC)",
+    "upload_type": "report",
+    "publication_type": "article",
+    "description": "This report presents the complete experimental validation of the Simplified Theory of Everything (STOE), version V12. It includes theoretical predictions and visual comparisons with real data from the Cosmic Microwave Background (CMB), cosmological redshift observations, and high-energy collisions at the LHC. The model demonstrates a high degree of match with empirical data across three domains. This unified publication aims to support interdisciplinary discussions in cosmology, particle physics, and quantum field theory.",
+    "creators": [
+        {
+            "name": "Bouteben, Abderrahmane Ali",
+            "affiliation": "University of Batna 2"
+        },
+        {
+            "name": "Omran, Abdelkader",
+            "affiliation": "HONGKONG TRIZEL INTERNATIONAL GROUP LIMITED"
+        }
+    ],
+    "keywords": [
+        "STOE",
+        "CMB",
+        "Redshift",
+        "LHC",
+        "Quantum Gravity",
+        "Unified Field Theory",
+        "Cosmology",
+        "Experimental Validation",
+        "Spectral Physics",
+        "Theoretical Physics"
+    ],
+    "language": "eng",
+    "license": "cc-by-4.0",
+    "access_right": "open",
+    "communities": [
+        {
+            "identifier": "open-science"
+        }
+    ],
+    "related_identifiers": [
+        {
+            "identifier": "10.5281/zenodo.15616047",
+            "relation": "isSupplementTo",
+            "scheme": "doi"
+        }
+    ],
+    "conference_title": "Unified Field Models \u2013 Global Scientific Forum (UFM-GSF)",
+    "conference_acronym": "UFM-GSF",
+    "conference_dates": "2025-07-01",
+    "conference_place": "Geneva, Switzerland",
+    "conference_session": "Session VI, Part 1"
+}
