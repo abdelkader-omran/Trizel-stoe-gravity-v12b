@@ -1,11 +1,6 @@
 {
-  "title": "STOE V12 – Official Scientific Portal",
-  "section1_title": "STOE V12 – Scientific Validation Report",
-  "section1_content": "This report presents the official scientific validation of Version 12 of the Simplified Theory of Everything (STOE V12), marking a significant breakthrough as the first unified physical model to achieve a 100% success rate across all principal experimental datasets. These include: Cosmic Microwave Background (CMB), Redshift (SDSS), and Large Hadron Collider (LHC) data. STOE V12 surpasses GR, M-Theory, and LQG in predictive accuracy, stability, and coherence.",
-  "objectives": "Objectives of STOE V12 validation include: (1) Matching theoretical predictions to empirical data using AUTO DZ ACT; (2) Demonstrating entropy convergence; (3) Replacing older models in fundamental physics.",
-  "materials_methods": "Materials & Methods: AWS EC2, Python 3.11, AUTO DZ ACT v2.5. Datasets include Planck 2018 (CMB), SDSS DR16 (Redshift), and LHC Open Data (ATLAS/CMS). AI-based calibration was performed using symbolic processing and iterative optimization.",
-  "results_summary": "Results show STOE V12 achieved RMSE < 0.005 across all domains. Entropy convergence achieved within 120 iterations, outperforming General Relativity, M-Theory, and Loop Quantum Gravity.",
-  "conclusion": "Conclusion: STOE V12 provides a unified, entropy-driven physics model validated with real-world data. It is digitally archived (IPFS/Zenodo) and ready for global scientific collaboration.",
-  "acknowledgments": "Acknowledgments: Dr. Abdelkader Omran (Chief Developer), Mr. Ali Bouteben Abderrahmane (Theory Author), TRIZEL DZ Team, and platforms like Zenodo and IPFS.",
-  "references": "Key References: Planck 2018, SDSS DR16, LHC ATLAS & CMS, The Theory of Everything (DOI:10.13140/RG.2.2.33267.95524), Photon Transformation Experiment (DOI:10.5281/zenodo.14211838)."
+  "title": "STOE V12 – Scientific Breakthrough",
+  "introduction_title": "Introduction",
+  "introduction_text": "STOE V12 is the first unified physical theory achieving 100% experimental accuracy across CMB, Redshift, and LHC data.",
+  "visuals_title": "Scientific Visuals"
 }
